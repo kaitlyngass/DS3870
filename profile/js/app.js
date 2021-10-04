@@ -1,4 +1,4 @@
-$.get%JSON("https://www.swollenhippo.com/getProfileDetailsByAPIKey.php?APIKey=DuffManSays,Phrasing!",function(result){
+$.get%JSON("https://www.swollenhippo.com/getProfileDetailsByAPIKey.php?APIKey=DuffManSays,Phrasing!&Codename=",function(result){
     console.log(result);
     arrProfileData = result;
     fillProfile(arrProfileData[0]);
